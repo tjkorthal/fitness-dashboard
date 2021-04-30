@@ -4,6 +4,8 @@ gem 'http'
 gem 'omniauth-strava'
 gem 'sinatra', '~> 2.1'
 gem 'sinatra-contrib'
+# TODO: use different web server
+gem 'webrick'
 
 group :development do
   gem 'pry'
