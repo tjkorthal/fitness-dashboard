@@ -2,7 +2,8 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <a href="/activities">Activities</a> |
+      <a href="/auth/strava">Log In</a>
     </div>
     <router-view/>
   </div>
